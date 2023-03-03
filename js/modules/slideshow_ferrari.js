@@ -43,6 +43,13 @@ export default function SlideshowFerrari() {
       currentSlideIndexFerrari = 0;
     }
   }
+  // Dots Indicators
+  for (let i = 0; i < dotsFerrari.length; i++) {
+    dotsFerrari[i].addEventListener('click', function () {
+     currentSlideIndexFerrari = i;
+     renderFerrariSlide();
+    });
+  }
 
   // For First Slide
   if (currentSlideIndexFerrari == 0) {

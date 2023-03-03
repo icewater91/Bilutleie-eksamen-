@@ -43,6 +43,13 @@ export default function SlideshowBugatti() {
       currentSlideIndexBugatti = 0;
     }
   }
+    // Dots Indicators
+  for (let i = 0; i < dotsBugatti.length; i++) {
+    dotsBugatti[i].addEventListener('click', function () {
+      currentSlideIndexBugatti = i;
+      renderBugattiSlide();
+     });
+    }
 
   // For First Slide
   if (currentSlideIndexBugatti == 0) {

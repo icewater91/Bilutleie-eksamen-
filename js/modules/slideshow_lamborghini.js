@@ -43,7 +43,13 @@ export default function SlideshowLamborghini() {
       currentSlideIndexLamborghini = 0;
     }
   }
-
+  // Dots Indicators
+  for (let i = 0; i < dotsLamborghini.length; i++) {
+    dotsLamborghini[i].addEventListener('click', function () {
+      currentSlideIndexLamborghini = i;
+      renderLamborghiniSlide();
+    });
+  }
   // For First Slide
   if (currentSlideIndexLamborghini == 0) {
     renderLamborghiniSlide();
