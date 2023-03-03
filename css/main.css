@@ -1,0 +1,7 @@
+@import './modules/general-styles.css';
+@import './modules/header.css';
+@import './modules/carousel.css';
+@import './modules/cars-detail.css';
+@import './modules/contact.css';
+@import './modules/footer.css';
+@import './modules/media-queries.css';

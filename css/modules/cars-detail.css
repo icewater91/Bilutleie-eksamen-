@@ -1,0 +1,14 @@
+/* -------- Cars detail -------- */
+#cars-detail .col-2 img {
+  width: 100%;
+  padding: 10px 0px;
+}
+#cars-detail .col-2 h2 {
+  font-size: 37px;
+  line-height: 55px;
+  margin: 10px 0;
+}
+#cars-detail .col-2 p {
+  color: #555;
+  font-size: 15px;
+}
